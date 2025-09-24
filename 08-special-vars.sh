@@ -11,3 +11,5 @@ echo "Previous process ID: $!"
 echo "Home directory: $HOME"
 echo "who is running this script: $USER"
 echo "home directory of the user running this script: $HOME"
+sleep 30 &
+echo "PID of last background command: $!"
