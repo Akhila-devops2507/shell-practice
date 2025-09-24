@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 number=$1
 
 if [ "$number" -lt 100 ]; then
